@@ -1,4 +1,6 @@
-﻿using ECommerce.Domain.Contracts;
+﻿using AutoMapper;
+using ECommerce.API.Dtos;
+using ECommerce.Domain.Contracts;
 using ECommerce.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,26 +9,33 @@ namespace ECommerce.API.Controllers
 {
     public class BrandController : BaseApiController
     {
-        private readonly IGenericRepositories<Brand> _brandRepo;
-        public BrandController(IGenericRepositories<Brand> brandRepo)
-        {
-            _brandRepo = brandRepo;
+        private readonly IUnitofWork _unitofWork;
+        private readonly IMapper _mapper;
 
+        public BrandController(IUnitofWork unitofWork, IMapper mapper)
+        {
+            _unitofWork = unitofWork;
+            _mapper = mapper;
         }
+
 
         [HttpGet("{Id}")]
 
-        public async Task<ActionResult<Brand>> GetBrandById(int Id)
+        public async Task<ActionResult<BrandToReturnDto>> GetBrandById(int Id)
         {
-            var brand = _brandRepo.GetAsync(Id);
-            return Ok(await brand);
+            var brandRepo = _unitofWork.Repository<Brand>();
+
+            var brand = brandRepo.GetAsync(Id);
+
+            return Ok(_mapper.Map<Brand, BrandToReturnDto>(await brand));
         }
 
         [HttpGet]
-        public async Task<ActionResult<Brand>> GetAll()
+        public async Task<ActionResult<IEnumerable<BrandToReturnDto>>> GetAll()
         {
-            var brands = _brandRepo.GetAllAsync();
-            return Ok(await brands);
+            var brandRepo = _unitofWork.Repository<Brand>();
+            var brands = brandRepo.GetAllAsync();
+            return Ok(_mapper.Map<IEnumerable<Brand>, IEnumerable<BrandToReturnDto>>(await brands));
 
         }
     }

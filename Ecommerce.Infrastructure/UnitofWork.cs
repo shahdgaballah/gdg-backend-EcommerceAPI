@@ -14,11 +14,12 @@ namespace Ecommerce.Infrastructure
     {
         private readonly ECommerceContext _eCommercecontext;
 
-        public Hashtable _repositories { get; set; }
+        private Hashtable _repositories { get; set; }
 
         public UnitofWork(ECommerceContext eCommerceContext)
         {
             _eCommercecontext = eCommerceContext;
+            _repositories = new Hashtable();
         }
         public IGenericRepositories<T> Repository<T>() where T : BaseEntity
         {

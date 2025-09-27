@@ -19,8 +19,10 @@ namespace Ecommerce.Infrastructure.DataSeed
                         
                         _eCommerceContext.Brands.Add(brand);
                     }
-                    
+                    _eCommerceContext.SaveChanges();
+
                 }
+                
             }
 
             if (_eCommerceContext.Types.Count() == 0)
@@ -36,6 +38,7 @@ namespace Ecommerce.Infrastructure.DataSeed
                         
                         _eCommerceContext.Types.Add(type);
                     }
+                    _eCommerceContext.SaveChanges();
 
                 }
             }
@@ -52,11 +55,10 @@ namespace Ecommerce.Infrastructure.DataSeed
          
                         _eCommerceContext.Products.Add(product);
                     }
+                    _eCommerceContext.SaveChanges();
 
                 }
             }
-
-            _eCommerceContext.SaveChanges();
 
 
         }

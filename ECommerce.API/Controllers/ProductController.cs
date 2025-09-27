@@ -31,7 +31,7 @@ namespace ECommerce.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<ProductToReturnDto>> GetAll()
+        public async Task<ActionResult<IEnumerable<ProductToReturnDto>>> GetAll()
         {
             var productsRepo = _unitofWork.Repository<Product>();
 

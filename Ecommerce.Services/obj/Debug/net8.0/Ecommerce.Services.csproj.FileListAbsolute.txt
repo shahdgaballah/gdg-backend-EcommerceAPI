@@ -9,3 +9,4 @@ E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8
 E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\refint\Ecommerce.Services.dll
 E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.pdb
 E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\ref\Ecommerce.Services.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.sourcelink.json

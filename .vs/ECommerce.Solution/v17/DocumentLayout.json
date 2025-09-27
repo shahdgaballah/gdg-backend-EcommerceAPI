@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.api\\controllers\\typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|solutionrelative:ecommerce.api\\controllers\\typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|solutionrelative:ecommerce.api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|solutionrelative:ecommerce.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.api\\dtos\\producttoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|solutionrelative:ecommerce.api\\dtos\\producttoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90E9C958-3195-4B96-91D6-986C3B47C4D4}|ECommerce.Domain\\ECommerce.Domain.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90E9C958-3195-4B96-91D6-986C3B47C4D4}|ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:ecommerce.domain\\entities\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B9A4259-748F-43B1-993E-5B1BDADA4BED}|ECommerce.API\\ECommerce.API.csproj|solutionrelative:ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.infrastructure\\migrations\\20250927230137_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\migrations\\20250927230137_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.infrastructure\\datajson\\types.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\datajson\\types.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.infrastructure\\datajson\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\datajson\\brands.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.infrastructure\\dataseed\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\dataseed\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|e:\\gdg-backend\\api-projects\\ecommerce.solution\\ecommerce.infrastructure\\datajson\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8AFB9E9F-D055-4D24-818B-13F0826C001F}|Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj|solutionrelative:ecommerce.infrastructure\\datajson\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TypeController.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Controllers\\TypeController.cs",
+              "RelativeDocumentMoniker": "ECommerce.API\\Controllers\\TypeController.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Controllers\\TypeController.cs",
+              "RelativeToolTip": "ECommerce.API\\Controllers\\TypeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB8AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:28:32.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ECommerce.API\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ECommerce.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:20:25.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "ECommerce.API\\Controllers\\BrandController.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "ECommerce.API\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:20:13.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.Domain\\Entities\\Brand.cs",
+              "RelativeDocumentMoniker": "ECommerce.Domain\\Entities\\Brand.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.Domain\\Entities\\Brand.cs",
+              "RelativeToolTip": "ECommerce.Domain\\Entities\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:17:34.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductToReturnDto.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Dtos\\ProductToReturnDto.cs",
+              "RelativeDocumentMoniker": "ECommerce.API\\Dtos\\ProductToReturnDto.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Dtos\\ProductToReturnDto.cs",
+              "RelativeToolTip": "ECommerce.API\\Dtos\\ProductToReturnDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:17:24.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitofWork.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\UnitofWork.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Infrastructure\\UnitofWork.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\UnitofWork.cs",
+              "RelativeToolTip": "Ecommerce.Infrastructure\\UnitofWork.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:08:05.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerce.API\\Program.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\ECommerce.API\\Program.cs",
+              "RelativeToolTip": "ECommerce.API\\Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:07:05.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250927230137_InitialCreate.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\Migrations\\20250927230137_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Infrastructure\\Migrations\\20250927230137_InitialCreate.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\Migrations\\20250927230137_InitialCreate.cs",
+              "RelativeToolTip": "Ecommerce.Infrastructure\\Migrations\\20250927230137_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T23:01:40.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "products.json",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataJson\\products.json",
+              "RelativeDocumentMoniker": "Ecommerce.Infrastructure\\DataJson\\products.json",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataJson\\products.json",
+              "RelativeToolTip": "Ecommerce.Infrastructure\\DataJson\\products.json",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAAJEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T22:45:53.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "types.json",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataJson\\types.json",
+              "RelativeDocumentMoniker": "Ecommerce.Infrastructure\\DataJson\\types.json",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataJson\\types.json",
+              "RelativeToolTip": "Ecommerce.Infrastructure\\DataJson\\types.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T22:45:33.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "brands.json",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataJson\\brands.json",
+              "RelativeDocumentMoniker": "Ecommerce.Infrastructure\\DataJson\\brands.json",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataJson\\brands.json",
+              "RelativeToolTip": "Ecommerce.Infrastructure\\DataJson\\brands.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-27T22:45:00.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataSeeding.cs",
+              "DocumentMoniker": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataSeed\\DataSeeding.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Infrastructure\\DataSeed\\DataSeeding.cs",
+              "ToolTip": "E:\\gdg-backend\\API-Projects\\ECommerce.Solution\\Ecommerce.Infrastructure\\DataSeed\\DataSeeding.cs",
+              "RelativeToolTip": "Ecommerce.Infrastructure\\DataSeed\\DataSeeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T22:44:25.092Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
