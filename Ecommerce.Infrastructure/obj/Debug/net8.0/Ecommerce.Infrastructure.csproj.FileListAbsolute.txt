@@ -15,3 +15,4 @@ E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debu
 E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.pdb
 E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.genruntimeconfig.cache
 E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\ref\Ecommerce.Infrastructure.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.sourcelink.json

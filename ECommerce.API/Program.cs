@@ -2,15 +2,17 @@
 using Ecommerce.Infrastructure;
 using Ecommerce.Infrastructure.DataSeed;
 using Ecommerce.Infrastructure.Repositories;
+using ECommerce.API.Helper;
 using ECommerce.Domain.Contracts;
 using ECommerce.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace ECommerce.API
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +34,10 @@ namespace ECommerce.API
 
             builder.Services.AddScoped(typeof(IGenericRepositories<>), typeof(GenericRepositories<>));
 
+            builder.Services.AddScoped<IUnitofWork, UnitofWork>();
+
+            builder.Services.AddAutoMapper(typeof(MappingProfiles));
+
 
             var app = builder.Build();
 
@@ -44,7 +50,7 @@ namespace ECommerce.API
 
             try
             {
-                _dbcontext.Database.Migrate();
+               await _dbcontext.Database.MigrateAsync();
                 DataSeeding.AddData(_dbcontext);
             }
             catch (Exception ex)

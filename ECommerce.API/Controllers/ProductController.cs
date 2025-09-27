@@ -1,4 +1,6 @@
-﻿using Ecommerce.Infrastructure.Repositories;
+﻿using AutoMapper;
+using Ecommerce.Infrastructure.Repositories;
+using ECommerce.API.Dtos;
 using ECommerce.Domain.Contracts;
 using ECommerce.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -8,26 +10,34 @@ namespace ECommerce.API.Controllers
 {
     public class ProductController : BaseApiController
     {
-        private readonly IGenericRepositories<Product> _productRepo;
-        public ProductController(IGenericRepositories<Product> productRepo)
-        {
-            _productRepo = productRepo;
+        private readonly IUnitofWork _unitofWork;
+        private readonly IMapper _mapper;
 
+        public ProductController(IUnitofWork unitofWork, IMapper mapper)
+        {
+            _unitofWork = unitofWork;
+            _mapper = mapper;
         }
 
         [HttpGet("{Id}")]
 
-        public ActionResult<Product> GetProductById(int Id)
+        public async Task<ActionResult<ProductToReturnDto>> GetProductById(int Id)
         {
-            var product = _productRepo.Get(Id);
-            return Ok(product);
+            var productRepo = _unitofWork.Repository<Product>();
+
+            var product = productRepo.GetAsync(Id);
+
+            return Ok(_mapper.Map<Product, ProductToReturnDto>(await product));
         }
 
         [HttpGet]
-        public ActionResult<Product> GetAll()
+        public async Task<ActionResult<ProductToReturnDto>> GetAll()
         {
-            var products = _productRepo.GetAll();
-            return Ok(products);
+            var productsRepo = _unitofWork.Repository<Product>();
+
+            var products = productsRepo.GetAllAsync();
+
+            return Ok(_mapper.Map<IEnumerable<Product>, IEnumerable<ProductToReturnDto>>(await products));
 
         }
     }

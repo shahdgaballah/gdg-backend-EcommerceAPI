@@ -17,20 +17,20 @@ namespace Ecommerce.Infrastructure.Repositories
             _eCommerceContext = eCommerceContext;
 
         }
-        public T Get(int Id)
+        public async Task<T> GetAsync(int Id)
         {
             if(typeof(T) == typeof(Product))
-                return _eCommerceContext.Set<Product>().Include(p => p.Brand).Include(p => p.Type).Where(p => p.Id == Id).FirstOrDefault() as T;
+                return await _eCommerceContext.Set<Product>().Include(p => p.Brand).Include(p => p.Type).Where(p => p.Id == Id).FirstOrDefaultAsync() as T;
 
-            return _eCommerceContext.Set<T>().Find(Id);
+            return await _eCommerceContext.Set<T>().FindAsync(Id);
         }
 
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
             if (typeof(T) == typeof(Product))
-                return (IEnumerable<T>)_eCommerceContext.Set<Product>().Include(p => p.Brand).Include(p => p.Type).ToList();
+                return (IEnumerable<T>) await _eCommerceContext.Set<Product>().Include(p => p.Brand).Include(p => p.Type).ToListAsync();
            
-            return _eCommerceContext.Set<T>().ToList();
+            return await _eCommerceContext.Set<T>().ToListAsync();
 
         }
         public void Add(T item)

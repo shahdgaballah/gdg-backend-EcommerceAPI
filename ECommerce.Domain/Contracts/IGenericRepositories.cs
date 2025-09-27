@@ -9,9 +9,9 @@ namespace ECommerce.Domain.Contracts
 {
     public interface IGenericRepositories<T> where T : BaseEntity
     {
-        public T Get(int Id);
+        public Task<T> GetAsync(int Id);
 
-        public IEnumerable<T> GetAll();
+        public Task<IEnumerable<T>> GetAllAsync();
 
         public void Add(T item);
 

@@ -16,17 +16,17 @@ namespace ECommerce.API.Controllers
 
         [HttpGet("{Id}")]
 
-        public ActionResult<ProductType> GetTypeById(int Id)
+        public async Task<ActionResult<ProductType>> GetTypeById(int Id)
         {
-            var type = _typeRepo.Get(Id);
-            return Ok(type);
+            var type = _typeRepo.GetAsync(Id);
+            return Ok(await type);
         }
 
         [HttpGet]
-        public ActionResult<ProductType> GetAll()
+        public async Task<ActionResult<ProductType>> GetAll()
         {
-            var types = _typeRepo.GetAll();
-            return Ok(types);
+            var types = _typeRepo.GetAllAsync();
+            return Ok(await types);
 
         }
     }
