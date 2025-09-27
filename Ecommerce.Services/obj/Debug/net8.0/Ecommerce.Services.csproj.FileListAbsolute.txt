@@ -1,0 +1,11 @@
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\bin\Debug\net8.0\Ecommerce.Services.deps.json
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\bin\Debug\net8.0\Ecommerce.Services.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\bin\Debug\net8.0\Ecommerce.Services.pdb
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.AssemblyInfoInputs.cache
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.AssemblyInfo.cs
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.csproj.CoreCompileInputs.cache
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\refint\Ecommerce.Services.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\Ecommerce.Services.pdb
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Services\obj\Debug\net8.0\ref\Ecommerce.Services.dll

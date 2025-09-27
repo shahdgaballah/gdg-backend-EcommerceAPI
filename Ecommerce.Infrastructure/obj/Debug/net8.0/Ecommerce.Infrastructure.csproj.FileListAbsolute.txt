@@ -1,0 +1,17 @@
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\bin\Debug\net8.0\Ecommerce.Infrastructure.deps.json
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\bin\Debug\net8.0\Ecommerce.Infrastructure.runtimeconfig.json
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\bin\Debug\net8.0\Ecommerce.Infrastructure.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\bin\Debug\net8.0\Ecommerce.Infrastructure.pdb
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\bin\Debug\net8.0\ECommerce.Domain.pdb
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.csproj.AssemblyReference.cache
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.AssemblyInfoInputs.cache
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.AssemblyInfo.cs
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.csproj.CoreCompileInputs.cache
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerc.43E367F3.Up2Date
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\refint\Ecommerce.Infrastructure.dll
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.pdb
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\Ecommerce.Infrastructure.genruntimeconfig.cache
+E:\gdg-backend\API-Projects\ECommerce.Solution\Ecommerce.Infrastructure\obj\Debug\net8.0\ref\Ecommerce.Infrastructure.dll
