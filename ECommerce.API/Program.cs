@@ -3,10 +3,13 @@ using Ecommerce.Infrastructure;
 using Ecommerce.Infrastructure.DataSeed;
 using Ecommerce.Infrastructure.Repositories;
 using ECommerce.API.Helper;
+using ECommerce.API.Middleware;
 using ECommerce.Domain.Contracts;
 using ECommerce.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
+using Ecommerce.Services;
+using ECommerce.API.Filters;
 
 namespace ECommerce.API
 {
@@ -16,12 +19,20 @@ namespace ECommerce.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Logging.AddConsole();
+
             // Add services to the container.
 
             builder.Services.AddControllers().AddNewtonsoftJson(
                 options => options.SerializerSettings.ReferenceLoopHandling 
                 = Newtonsoft.Json.ReferenceLoopHandling.Ignore
              );
+
+            builder.Services.AddControllers(options =>
+            {
+                options.Filters.Add<AsyncValidationFilter>();
+            });
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -32,12 +43,16 @@ namespace ECommerce.API
 
             });
 
+
             builder.Services.AddScoped(typeof(IGenericRepositories<>), typeof(GenericRepositories<>));
 
             builder.Services.AddScoped<IUnitofWork, UnitofWork>();
 
             builder.Services.AddAutoMapper(typeof(MappingProfiles));
 
+            builder.Services.AddScoped<IProductService, ProductService>();
+
+            builder.Services.AddScoped<AsyncValidationFilter>();
 
             var app = builder.Build();
 
@@ -71,6 +86,8 @@ namespace ECommerce.API
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
 
             app.MapControllers();

@@ -7,6 +7,6 @@ namespace ECommerce.Domain.Contracts
     {
         IGenericRepositories<T> Repository<T>() where T : BaseEntity;
 
-        int Complete();
+        Task<int> CompleteAsync();
     }
 }

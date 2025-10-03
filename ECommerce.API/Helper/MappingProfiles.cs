@@ -21,6 +21,8 @@ namespace ECommerce.API.Helper
                 .ForMember(d => d.Id, o => o.MapFrom(s => s.Id))
                 .ForMember(d => d.Name, o => o.MapFrom(s => s.Name));
 
+            CreateMap<ProductToCreateDto, Product>();
+
 
         }
     }
